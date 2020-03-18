@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.fst{
+    background: url(header-bg2.png) no-repeat, url(header-bg.png) no-repeat ;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+
+}
+h2{
+    color: black;
+    
+}
+h1{
+    
+    color: royalblue;
+    font-size: 80px;
+}
+
+p{
+    
+    margin-top: 50px;
+    color: #777;
+    font-size: 18px;
+}
+.pic1{
+    height: 800px;
+
+}
+.textPart{
+    margin-left: 10%;
+}
+.hr{
+    font-size: 20px;
+    background: linear-gradient(to right left, blue,purple);
+    color: white;
+    font-weight: 100%;
+    font-style: bold;
+    background-color: coral;
+    border-color: coral;
+    margin-left: 10%;
+    margin-top: 10%;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.next{
+    background: url(dream-bg.png) no-repeat right center,url(biography-bg.png) no-repeat;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-height: 100vh;
+    margin-top: 0px;
+    
+}
+.pic2{
+    height: 600px;
+    margin-top: 0px;
+}
+h3{
+    color: black;
+    font-size: 50px;
+
+}
+.dream{
+    margin-top: 40px;
+    margin-right: 120px;
+}
+.cv{
+    background-color: lightcoral;
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 200px;
+    margin-top: 50px;
+    border-color: lightcoral;
+    cursor: pointer;
+    font-size: 20px;
+    color: white ;
+   
+}
+
+.Title1{
+    color: black;
+   font-size: 3rem;
+    font-weight: bolder;
+    text-align: center;
+
+}
+.exp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-height: 100vh;
+
+}
+.box1{
+    width: 30%;
+    padding: 3% 3%;
+    margin: 0 2%;
+    border-width: 0 0 0 6px;
+    border-style: groove;
+    box-shadow: 0 0 20px 5px rgba(53, 218, 12, 0.4);
+    background-color: white;
+    
+}
+.box2{
+    width: 30%;
+    padding: 3% 3%;
+    margin: 0 3%;
+    border-width: 0 0 0 6px;
+    border-style: groove;
+    box-shadow: 0 0 20px 5px rgba(233, 184, 161, 0.973);
+    background-color: white;
+    
+}
+
+.Title{
+    font-size: 20px;
+    width: 500px;
+    border:none;
+}
+.time{
+    color: red;
+    font-size: 20px;
+    width: 300px;
+}
+.reach{
+    font-weight: bolder;
+    text-align: center;
+}
